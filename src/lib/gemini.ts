@@ -35,6 +35,19 @@ EXAMPLE SUMMARY COMMENTS:
 * Added an OpenAI API for completions [packages/utils/apis/openai.ts]
 * Lowered numeric tolerance for test files
 \`\`\`
+
+Key guidelines:
+\`\`\`
+* Be concise and aim for a single bullet point per significant change.
+* Include relevant file paths in square brackets \`[]\` when the change is specific to one or two files.
+* If more than two files are significantly impacted by a single change, omit the file paths for brevity.
+* Focus on the *functional* changes. What does this commit enable or fix?
+* Do not include phrases like "This commit...", "Added a...", "Fixed...", etc. Start directly with the action.
+* Do not include any parts of the example summaries in your output. ,
+\`\`\`
+
+
+
 Most commits will have less comments than this examples list.
 The last comment does not include the file names,
 because there were more than two relevant files in the hypothetical commit.
